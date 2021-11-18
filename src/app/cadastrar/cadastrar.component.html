@@ -1,0 +1,25 @@
+<form class="cadastro" [formGroup]="formCadastro" (submit)="onSubmit()">
+  <h2><b>Cadastrar</b></h2>
+  <div class="pair">
+    <label
+      >Título
+      <input type="text" formControlName="titulo" placeholder="Titulo" />
+    </label>
+  </div>
+
+  <div class="pair">
+    <label
+      >Descrição
+      <input type="text" formControlName="descricao" placeholder="Descrição" />
+    </label>
+  </div>
+
+  <div class="pair">
+    <label
+      >Preço
+      <input type="number" formControlName="preco" placeholder="Preço" />
+    </label>
+  </div>
+
+  <button>Cadastrar</button>
+</form>

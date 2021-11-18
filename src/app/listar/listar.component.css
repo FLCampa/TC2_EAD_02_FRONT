@@ -1,0 +1,39 @@
+div {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+table {
+  text-align: center;
+  border: 1px solid;
+}
+
+td {
+  border: 1px solid;
+  width: 150px;
+  padding: 0.25rem;
+}
+
+button:hover {
+  cursor: pointer;
+  filter: brightness(0.7);
+}
+
+.attBtn {
+  width: 80px;
+  background: green;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 0.25rem;
+}
+
+.delBtn {
+  width: 80px;
+  background: red;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 0.25rem;
+}

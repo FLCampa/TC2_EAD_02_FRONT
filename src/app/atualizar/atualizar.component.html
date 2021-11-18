@@ -1,0 +1,22 @@
+<div>
+  <h2><b>Atualizar</b></h2>
+  <label
+    >Título
+    <input [(ngModel)]="produtoParaAtualizar.titulo" placeholder="Título" />
+  </label>
+  <label
+    >Descrição
+    <input
+      [(ngModel)]="produtoParaAtualizar.descricao"
+      placeholder="Descrição"
+    />
+  </label>
+  <label
+    >Preço
+    <textarea
+      [(ngModel)]="produtoParaAtualizar.preco"
+      placeholder="Preço"
+    ></textarea>
+  </label>
+  <button (click)="atualizar()">Atualizar</button>
+</div>

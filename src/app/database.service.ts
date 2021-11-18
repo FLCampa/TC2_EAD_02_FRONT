@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class DatabaseService {
-  baseURL = 'http://localhost:8080/api/produtos';
+  baseURL = 'https://sc3006255.glitch.me/api/produtos';
 
   constructor(private http: HttpClient) {}
 
